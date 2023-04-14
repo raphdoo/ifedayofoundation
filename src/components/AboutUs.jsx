@@ -1,23 +1,22 @@
-import React, {useEffect} from 'react';
-import styles, { layout } from "../styles";
-import Button from "./Button";
-import { features } from "../constants";
+import React, { useEffect } from 'react';
+import styles, { layout } from '../styles';
+import Button from './Button';
+import { features } from '../constants';
 
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
-
-const FeatureCard = ({ icon, title, content, index, delay, featureCtrl}) => {
+const FeatureCard = ({ icon, title, content, index, delay, featureCtrl }) => {
   return (
     <motion.div
-    initial={{ x: 800, opacity: 0 }}
-    animate={featureCtrl}
-    transition={{
-      duration: 1.2,
-      delay: delay,
-    }}
+      initial={{ x: 800, opacity: 0 }}
+      animate={featureCtrl}
+      transition={{
+        duration: 1.2,
+        delay: delay,
+      }}
       className={`flex flex-row p-2 rounded-[20px] ${
-        index !== features.length - 1 ? "mb-6" : "mb-0"
+        index !== features.length - 1 ? 'mb-6' : 'mb-0'
       } feature-card`}
     >
       <div
@@ -58,7 +57,7 @@ const AboutUs = () => {
   }, [inView]);
   return (
     <section ref={ref} id="aboutUs" className={layout.section}>
-      <div  className={layout.sectionInfo}>
+      <div className={layout.sectionInfo}>
         <div className="h-[2px] bg-tertiary w-[100%] sm:w-[40%] mb-4" />
         <h2 className={styles.heading2}>Our Story</h2>
         <p className={`${styles.paragraph} max-w-[475px] text-tertiary mt-5`}>
@@ -76,7 +75,7 @@ const AboutUs = () => {
             duration: 1.2,
           }}
         >
-          <Button styles={`mt-10`} />
+          <Button text={'Join us'} styles={`mt-10`} />
         </motion.div>
       </div>
 
