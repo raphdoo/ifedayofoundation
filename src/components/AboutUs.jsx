@@ -60,12 +60,15 @@ const AboutUs = () => {
       <div className={layout.sectionInfo}>
         <div className="h-[2px] bg-tertiary w-[100%] sm:w-[40%] mb-4" />
         <h2 className={styles.heading2}>Our Story</h2>
-        <p className={`${styles.paragraph} max-w-[475px] text-tertiary mt-5`}>
-          Ifedayo Foundation was born out of the need to outpour love towards
-          vulnerable communities and individuals. The NGO works in line of
-          Sustainable Development Goal 3 (SDG 3) - Health and Wellbeing. In this
-          light, various medical/ total wellness outreach has been held in over
-          20 communities in its 2 years of operating.
+        <p
+          className={`${styles.paragraph} max-w-[500px] text-justify text-tertiary mt-5`}
+        >
+          <strong>Helbred Initiatives</strong> formerly known as Ifedayo
+          Foundation was born out of the need to outpour love towards vulnerable
+          communities and individuals. The NGO works in line of Sustainable
+          Development Goal 3 (SDG 3) - Health and Wellbeing. In this light,
+          various medical/ total wellness outreach has been held in over 20
+          communities in its 2 years of operating.
         </p>
 
         <motion.div

@@ -1,4 +1,4 @@
-import logo from './logo.PNG';
+import logo from './logo.png';
 import quote from './quote.png';
 import menu from './menu.svg';
 import close from './close.svg';
@@ -23,6 +23,7 @@ import gallery5 from './gallery5.PNG';
 import gallery6 from './gallery6.PNG';
 import ceo from './ceo.PNG';
 import event from './event.png';
+import helbred_vision from './helbred_vision.png';
 
 export {
   quote,
@@ -50,4 +51,5 @@ export {
   gallery6,
   ceo,
   event,
+  helbred_vision,
 };

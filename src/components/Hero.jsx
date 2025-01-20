@@ -62,7 +62,7 @@ const Hero = () => {
             {...animationProps}
             className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-secondary ss:leading-[100.8px] leading-[75px]"
           >
-            Ifedayo
+            Helbred
           </motion.h2>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <Donate />
@@ -74,9 +74,11 @@ const Hero = () => {
           {...animationProps}
           className="font-poppins font-semibold ss:text-[68px] text-[52px] text-secondary ss:leading-[100.8px] leading-[75px] w-full"
         >
-          Foundation.
+          Initiative
         </motion.h2>
-        <p className={`${styles.paragraph} text-tertiary max-w-[470px] mt-5`}>
+        <p
+          className={`${styles.paragraph} text-tertiary max-w-[470px] text-justify mt-5`}
+        >
           <AnimatedText isTextAnimationStart={isTextAnimationStart}>
             Born out of the need to outpour love towards vulnerable communities.
             We provide support and care for people in need with focus on local

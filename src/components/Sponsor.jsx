@@ -1,13 +1,13 @@
 import styles, { layout } from '../styles';
 
 import Button from './Button';
-import { sponsor, event } from '../assets';
+import { sponsor, event, helbred_vision } from '../assets';
 
 const Sponsor = () => (
   <section id="sponsor" className={`${layout.sectionReverse} `}>
     <div className={layout.sectionImgReverse}>
       <img
-        src={event}
+        src={helbred_vision}
         alt="event"
         className="w-[80%] sm:w-[80%] h-[auto] relative z-[5] border-solid border-4 border-stone-500"
       />
