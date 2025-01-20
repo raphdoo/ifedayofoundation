@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.16c63ec0.css",
-    "main.js": "/static/js/main.164dec14.js",
+    "main.css": "/static/css/main.747262c3.css",
+    "main.js": "/static/js/main.35bea636.js",
     "static/media/intro.mp4": "/static/media/intro.8164e9f1a77a5ac82b7e.mp4",
     "static/media/event.png": "/static/media/event.f65d8be01c73b545e864.png",
     "static/media/gallery2.PNG": "/static/media/gallery2.d6ac927ce3bc2c430141.PNG",
@@ -12,20 +12,21 @@
     "static/media/gallery3.PNG": "/static/media/gallery3.b7bc84e31976d2cce222.PNG",
     "static/media/gallery6.PNG": "/static/media/gallery6.5cf3c1792eed8c1060ff.PNG",
     "static/media/hero.PNG": "/static/media/hero.43fc351c38ea21aa7173.PNG",
+    "static/media/helbred_vision.png": "/static/media/helbred_vision.6c046da21967e1686b88.png",
     "static/media/ceo.PNG": "/static/media/ceo.e95762c288285d92733b.PNG",
-    "static/media/logo.PNG": "/static/media/logo.8d0ab733d199f452aead.PNG",
+    "static/media/logo.png": "/static/media/logo.4ccea46acfce47bfde1a.png",
     "static/media/google.svg": "/static/media/google.b596752253d8523d78d4a2691564e4b4.svg",
     "static/media/apple.svg": "/static/media/apple.e3713dc89ad84e690ab38eae55922d3e.svg",
     "static/media/twitter.png": "/static/media/twitter.72444998513d7071215d.png",
     "static/media/close.svg": "/static/media/close.c77f10e4c08d40af5f1ccf25a43b2ac5.svg",
     "static/media/menu.svg": "/static/media/menu.0b8796dcff6b9d88f160a5096039aa18.svg",
-    "index.html": "/index.html",
     "static/media/arrow-up.svg": "/static/media/arrow-up.4518f6b7e1bbff4c26d77e158730633d.svg",
-    "main.16c63ec0.css.map": "/static/css/main.16c63ec0.css.map",
-    "main.164dec14.js.map": "/static/js/main.164dec14.js.map"
+    "index.html": "/index.html",
+    "main.747262c3.css.map": "/static/css/main.747262c3.css.map",
+    "main.35bea636.js.map": "/static/js/main.35bea636.js.map"
   },
   "entrypoints": [
-    "static/css/main.16c63ec0.css",
-    "static/js/main.164dec14.js"
+    "static/css/main.747262c3.css",
+    "static/js/main.35bea636.js"
   ]
 }
