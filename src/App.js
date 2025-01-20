@@ -1,4 +1,4 @@
-import styles from "./styles";
+import styles from './styles';
 
 import {
   Navbar,
@@ -10,7 +10,7 @@ import {
   Footer,
   SocialMedia,
   Sponsor,
-  Video
+  Video,
 } from './components';
 
 const App = () => (
@@ -26,7 +26,7 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    
+
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />

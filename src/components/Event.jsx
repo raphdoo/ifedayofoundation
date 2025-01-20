@@ -36,7 +36,7 @@ const FeatureCard = ({ icon, title, content, index, delay, featureCtrl }) => {
   );
 };
 
-const AboutUs = () => {
+const Event = () => {
   const featureCtrl = useAnimation();
   const buttonCtrl = useAnimation();
 
@@ -94,4 +94,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Event;
