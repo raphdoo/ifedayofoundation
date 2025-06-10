@@ -161,7 +161,7 @@ export const socialMedia = [
   {
     id: 'social-media-1',
     icon: instagram,
-    link: 'https://www.instagram.com/ifedayo_foundation/',
+    link: 'https://www.instagram.com/helbred_initiative/',
   },
   {
     id: 'social-media-2',
